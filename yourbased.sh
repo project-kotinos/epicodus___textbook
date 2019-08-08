@@ -12,7 +12,7 @@ gem --version
 # rm chromedriver_linux64.zip
 # mv -f chromedriver /usr/local/bin/
 # chmod +x /usr/local/bin/chromedriver
-google-chrome-stable --headless --no-sandbox
+# google-chrome-stable --headless --no-sandbox
 # install
 bundle install --jobs=3 --retry=3
 # before_script
