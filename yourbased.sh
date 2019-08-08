@@ -10,8 +10,8 @@ gem --version
 wget http://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 rm chromedriver_linux64.zip
-sudo mv -f chromedriver /usr/local/bin/
-sudo chmod +x /usr/local/bin/chromedriver
+mv -f chromedriver /usr/local/bin/
+chmod +x /usr/local/bin/chromedriver
 google-chrome-stable --headless --no-sandbox
 # install
 bundle install --jobs=3 --retry=3
