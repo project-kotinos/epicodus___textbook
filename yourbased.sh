@@ -7,11 +7,11 @@ gem install bundler -v 2.0.1
 gem update --system
 gem install bundler
 gem --version
-wget http://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip
-rm chromedriver_linux64.zip
-mv -f chromedriver /usr/local/bin/
-chmod +x /usr/local/bin/chromedriver
+# wget http://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
+# unzip chromedriver_linux64.zip
+# rm chromedriver_linux64.zip
+# mv -f chromedriver /usr/local/bin/
+# chmod +x /usr/local/bin/chromedriver
 google-chrome-stable --headless --no-sandbox
 # install
 bundle install --jobs=3 --retry=3
